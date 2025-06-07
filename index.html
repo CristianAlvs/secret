@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttonStyle.css">
+    <link rel="stylesheet" href="toastStyle.css">
+    <link rel="stylesheet" href="form.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script> 
+</head>
+<body>
+    <div id="toast-container"></div>
+
+    <div class="loginContent content">
+        <div class="login">
+            <h1>CONFIDENCIAL</h1>
+            <form>
+                <input type="text" id="acronyms" name="acronyms" placeholder="Sigla de acesso" required>
+                <input type="password" id="accessCode" name="accessCode" placeholder="Chave secreta" required>
+
+                <button type="button" class="buttonEnter">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="finishContent content hidden">
+        <div class="card">
+            <section>
+                <h1>Um convite especial <span>💌</span></h1>
+                <div class="divider"></div>
+                <p>Após uma longa jornada você conseguiu!</p>
+            </section>
+
+            <section>
+                <p>Sábado as <label>12:00</label>, iremos ao <label>shopping Eldorado</label> nos deliciar com uma fabulosa comida mexicana😋</p>
+                <br />
+                <p><label>Está tudo resolvido.</label> Te buscarei e iremos juntos.👩🏻‍🤝‍🧑🏻</p>
+                <p>E ao chegar lá, nos encontraremos com dois convidados especiais, D&D</p>
+            </section>
+
+            <section class="menu">
+                <h2>Cardápio</h2>
+                <div class="divider"></div>
+                <p>O cardápio será recheado de delícias, e você pode escolher o que quiser!</p>
+
+                <p>🔽 Prato principal 🔽</p>
+                <p>Amor, Alegria, Risadas E MUITA COMIDAAA</p>
+            </section>
+
+            <p>CUPOM: Logo depois iremos assistir <br /> seu filme predileto😉</p>
+            <button class="buttonConfirm">Eu confirmo</button>
+            <p class="footer">Aguardo ansiosamente!❤️</p>
+        </div>
+    </div>
+</body>
+</html>

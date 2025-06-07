@@ -1,0 +1,28 @@
+/* Estilização básica do botão */
+.buttonConfirm {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+
+   outline: none;
+   transition: transform 0.1s ease-out;
+}
+
+.buttonConfirm:hover {
+  background-color: #316934;
+}
+
+/* Estado quando o botão é ativado (clicado) - opcional, mas adiciona um feedback instantâneo */
+.buttonConfirm:active {
+  transform: scale(0.9); /* Encolhe o botão para 95% do tamanho original */
+  background-color: #316934;
+}

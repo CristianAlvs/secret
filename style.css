@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    place-content: center;
+    padding: 64px 24px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: "Roboto", sans-serif;
+}
+
+.loginContent {
+    height: 100vh;
+    background-image: url('image2.jpg');
+
+    color: #666666;
+}
+
+.loginContent h1{
+    font-family: 'Courier New', monospace;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.finishContent {
+    background-image: url('image.jpg');
+
+    color: #9b83ad;
+}
+
+.hidden {
+    display: none;
+}
+
+h1, h2 {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h4 {
+    font-family: "Merienda", cursive;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.divider {
+    width: 20%;
+    height: 3px;
+    border-radius: 12px;
+    background-color: #dda517;
+    margin: 16px auto;
+}
+
+.card {
+    width: 500px;
+    padding: 24px;
+    background-color: #1e1129e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+.menu p:nth-child(4) {
+    margin-top: 16px;
+}
+
+.menu p:nth-child(4),
+.menu p:nth-child(3),
+label {
+    color: #eeeeee;
+    font-weight: 600;
+}
+
+.footer {
+    text-align: right;
+}

@@ -1,0 +1,35 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+/* Input Antigo Simplificado */
+input {
+  background-color: #e0e0e0; /* Cinza claro */
+  padding: 8px 12px;
+  font-family: 'Courier New', monospace; /* Fonte tipo máquina de escrever */
+  font-size: 16px;
+  color: #333; /* Texto escuro */
+}
+
+input:focus {
+  border-color: #555; /* Borda um pouco mais escura ao focar */
+}
+
+/* Botão Antigo Simplificado */
+.buttonEnter {
+  background-color: #c0c0c0; /* Cinza médio */
+  border: 2px outset #a0a0a0; /* Borda com efeito 3D (relevo) */
+  padding: 10px 20px;
+  font-family: 'Georgia', serif; /* Fonte com serifa */
+  font-size: 16px;
+  color: #333;
+  text-transform: uppercase; /* Letras maiúsculas */
+  cursor: pointer;
+  outline: none;
+}
+
+.buttonEnter:active {
+  background-color: #b0b0b0; /* Fica um pouco mais escuro ao clicar */
+  border: 2px inset #a0a0a0; /* Borda com efeito 3D (pressionado) */
+}
