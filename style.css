@@ -21,7 +21,7 @@
 
 .loginContent {
     height: 100vh;
-    background-image: url('image2.jpg');
+    background-image: url('imageBlack.jpg');
 
     color: #666666;
 }
@@ -74,9 +74,9 @@ p {
 }
 
 .card {
-    width: 500px;
+    max-width: 500px;
     padding: 24px;
-    background-color: #1e1129e6;
+    background-color: #1e1129f7;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 

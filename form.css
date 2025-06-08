@@ -10,6 +10,8 @@ input {
   font-family: 'Courier New', monospace; /* Fonte tipo máquina de escrever */
   font-size: 16px;
   color: #333; /* Texto escuro */
+
+  width: 100%; /* Preenche todo o espaço disponível */
 }
 
 input:focus {
