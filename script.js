@@ -4,7 +4,7 @@ $(document).ready(function() {
         <div class="toast-message">
             <h4>Então o que está esperando?</h4>
             <br />
-            Me mande uma mensagem, <br /> dizendo "eu aceito!"
+            Me ligue, <br /> dizendo "eu aceito!"
         </div>
     `);
   });
@@ -14,7 +14,7 @@ $(document).ready(function() {
   });
 
   // Função para mostrar o Toast Message
-  function mostrarToast(toast, duration = 4000) {
+  function mostrarToast(toast, duration = 10000) {
     // Cria um novo elemento div para o toast
     const $toast = $(toast);
 
