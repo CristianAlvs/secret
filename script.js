@@ -3,8 +3,8 @@ $(document).ready(function() {
     mostrarToast(`
         <div class="toast-message">
             <h4>Então o que está esperando?</h4>
-            
-            Me mande uma mensagem, dizendo "eu aceito!"
+            <br />
+            Me mande uma mensagem, <br /> dizendo "eu aceito!"
         </div>
     `);
   });

@@ -24,5 +24,4 @@
 /* Estado quando o botão é ativado (clicado) - opcional, mas adiciona um feedback instantâneo */
 .buttonConfirm:active {
   transform: scale(0.9); /* Encolhe o botão para 95% do tamanho original */
-  background-color: #316934;
 }
